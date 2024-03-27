@@ -5,7 +5,7 @@ import android.widget.Toast;
 
 public class ToasterMsg {
 
-    public void toaster(Context c, String s){
+    public static void toaster(Context c, String s){
         Toast.makeText(c, s, Toast.LENGTH_SHORT).show();
     }
 }
